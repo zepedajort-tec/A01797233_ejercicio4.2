@@ -10,6 +10,10 @@ The entire workflow is managed using a **Makefile**.
 
 ---
 
+## PDF google drive link
+
+https://drive.google.com/file/d/1sQzrU4aoJUcFZK5fKE47fPJ7E1fBG6WW/view?usp=sharing
+
 ## Project Structure
 ```
 ├── app/

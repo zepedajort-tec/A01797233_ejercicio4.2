@@ -9,7 +9,7 @@ STAT_DATA=testing-files/P1/TC1.txt testing-files/P1/TC2.txt testing-files/P1/TC3
 CONVERT_DATA=testing-files/P2/TC1.txt testing-files/P2/TC2.txt testing-files/P2/TC3.txt testing-files/P2/TC4.txt
 WORD_DATA=testing-files/P3/TC1.txt testing-files/P3/TC2.txt testing-files/P3/TC3.txt testing-files/P3/TC4.txt testing-files/P3/TC5.txt
 
-RESULTS=testing-files/P1/*.Result-output.txt testing-files/P2/*.Result-output.txt testing-files/P3/*.Result-output.txt
+RESULTS=output-files/P1/*.Result-output.txt output-files/P2/*.Result-output.txt output-files/P3/*.Result-output.txt
 
 .PHONY: help install lint run-stat run-convert run-word run-all clean
 

@@ -30,7 +30,7 @@ def main():
         print("Usage: python convert_numbers.py file1.txt file2.txt")
         sys.exit(1)
 
-    output_file = "testing-files/P2/A4.2.P2.Results-output.txt"
+    output_file = "output-files/P2/A4.2.P2.Results-output.txt"
     with open(output_file, "w", encoding="utf-8") as out:
         for filename in files:
             header = f"\nITEM\t{filename[:-4]}\tBIN\tHEX"

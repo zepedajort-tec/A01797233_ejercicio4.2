@@ -89,10 +89,10 @@ Processes input files located in testing-files/P2/:
 
 ### Word Count
 
-Processes multiple input files located in testing-files/P3/ and generates the output files in the same directory:
+Processes multiple input files located in testing-files/P3/ and generates the output files in the output-files directory:
 ```bash
   make run-word
 ```
 Output files are created using the following format:
 
-testing-files/P3/<input_filename>.Result-output.txt
+output-files/P{N}/<input_filename>.Result-output.txt

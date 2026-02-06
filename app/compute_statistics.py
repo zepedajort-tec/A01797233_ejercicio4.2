@@ -87,7 +87,7 @@ def main():
         results["SD"].append(standard_deviation(var))
         results["VARIANCE"].append(var)
 
-    output_file = "testing-files/P1/A4.2.P1.Results-output.txt"
+    output_file = "output-files/P1/A4.2.P1.Results-output.txt"
     with open(output_file, "w", encoding="utf-8") as out:
         header = "TC\t" + "\t".join(f"TC{i + 1}" for i in range(len(files)))
         out.write(header + "\n")

@@ -8,7 +8,7 @@ import os
 from .utils import print_elapsed
 
 
-OUTPUT_DIR = "testing-files/P3"
+OUTPUT_DIR = "output-files/P3"
 
 
 def process_file(filename: str) -> None:

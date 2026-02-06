@@ -18,6 +18,11 @@ The entire workflow is managed using a **Makefile**.
 │ ├── word_count.py
 │ └── utils.py
 │
+├── output-files/
+│ ├── P1/ # Output files for Compute Statistics
+│ ├── P2/ # Output files for Convert Numbers
+│ └── P3/ # Output and output files for Word Count
+│
 ├── testing-files/
 │ ├── P1/ # Input files for Compute Statistics
 │ ├── P2/ # Input files for Convert Numbers
